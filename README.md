@@ -1,24 +1,12 @@
 # Title
-
-Episode 006: SSL + Let's Encrypt in Kubernetes with Cert-manager
+ SSL + Let's Encrypt in Kubernetes with Cert-manager
 
 ## Table of contents
 
 ## Requirements
 
-We are using a simple cluster in **Digital Ocean (this is not a sponsor we chose this cloud provider for simplicity)**, to follow along this example just run the following comands. Be aware you must have an account in Digital Ocean.
+We are using a simple cluster in AWS, to follow along this example just run the following comands. Be aware you must have an account in AWS.
 
-### Setup Digital Ocean
-
-```shell
-# To login in your Digital Ocean account if you haven't and follow the steps in your terminal.
-doctl auth init
-
-# To create a simple cluster you can change the name of your cluster.
-doctl kubernetes cluster create sflo-ep006
-
-# Once the cluster is created the kubectl tool will be configured to use the new cluster you can check this by doing.
-kubectl config current-context
 ```
 
 ### Setup Nginx ingress controller
