@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: "echo.dev.lahorak8s.io"
+  - host: "echo.name.test.com"
     http:
       paths:
       - path: /
